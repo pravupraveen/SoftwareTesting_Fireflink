@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="test_cases.tc9_groupshelperattribute"/>
+      <class name="test_cases.tc_10bemowebshop_testconfiguration"/>
+      <class name="test_cases.tc8_includetag"/>
+      <class name="test_cases.tc2_demowebshop_register"/>
+      <class name="test_cases.tc3_demowebshop_login"/>
+      <class name="test_cases.tc5_demowebshop_subscribe"/>
+      <class name="test_cases.tc1_demowebshop_search"/>
+      <class name="test_cases.tc9_excludetag"/>
+      <class name="test_cases.tc7_demowebshop_facebook"/>
+      <class name="test_cases.tc4_demowebshop_vote"/>
+      <class name="test_cases.tc9_helperattribute"/>
+      <class name="test_cases.tc6_demowebshop_advancesearch"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

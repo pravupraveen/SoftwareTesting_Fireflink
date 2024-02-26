@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="test_cases.tc2_demowebshop_register">
+        <methods>
+          <include name="register"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc2_demowebshop_register -->
+      <class name="test_cases.tc4_demowebshop_vote">
+        <methods>
+          <include name="vote"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc4_demowebshop_vote -->
+      <class name="test_cases.tc3_demowebshop_login">
+        <methods>
+          <include name="login"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc3_demowebshop_login -->
+      <class name="test_cases.tc7_demowebshop_facebook">
+        <methods>
+          <include name="advancesearch"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc7_demowebshop_facebook -->
+      <class name="test_cases.tc5_demowebshop_subscribe">
+        <methods>
+          <include name="subscribe"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc5_demowebshop_subscribe -->
+      <class name="test_cases.tc1_demowebshop_search">
+        <methods>
+          <include name="search"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc1_demowebshop_search -->
+      <class name="test_cases.tc6_demowebshop_advancesearch">
+        <methods>
+          <include name="advancesearch"/>
+          <include name="browser_setup"/>
+        </methods>
+      </class> <!-- test_cases.tc6_demowebshop_advancesearch -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
